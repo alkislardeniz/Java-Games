@@ -1,0 +1,18 @@
+package shapes;
+
+/**
+ * @Deniz Alkýþlar
+ * @Locatable Interface 1.0
+ * @Ankara - 01.03.2016
+ */ 
+
+public interface Locatable extends Selectable
+{    
+    // methods
+    public abstract int getX();
+    
+    public abstract int getY();
+    
+    public abstract void setLocation(int x, int y);
+         
+}

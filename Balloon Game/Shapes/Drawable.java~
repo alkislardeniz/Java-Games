@@ -1,0 +1,18 @@
+package shapes;
+
+/**
+ * @Deniz Alkýþlar
+ * @Drawable Interface 1.0
+ * @Ankara - 01.03.2016
+ */ 
+
+public interface Drawable
+{    
+    // methods
+    public abstract int getX();
+    
+    public abstract int getY();
+    
+    public abstract void setLocation(int x, int y);
+         
+}

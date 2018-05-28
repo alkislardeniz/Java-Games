@@ -1,0 +1,17 @@
+package shapes;
+
+/**
+ * @Deniz Alkýþlar
+ * @Program Name 1.0
+ * @Ankara - 00.00.2016
+ */ 
+
+public interface Selectable
+{    
+    // methods
+    public abstract boolean getSelected();
+    
+    public abstract Shape contains (int x, int y);
+    
+    public abstract void setSelected (boolean selected);      
+}
